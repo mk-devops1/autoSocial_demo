@@ -129,10 +129,3 @@ def comment(auto):
     print("Comment successfully!")
     print("------------------------------------------------")
     auto.wait_middle()
-
-# callout of some funktions like follow, like or fully human like
-if __name__ == "__main__":
-    with instagram() as auto:
-        auto.land_first_page()
-        while True:
-            like(auto)
