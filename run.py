@@ -1,4 +1,4 @@
-from utilities.Social import instagram
+from utilities.Social import social
 import utilities.constants as const
 
 def fully_human_like(auto):
